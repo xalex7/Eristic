@@ -11,6 +11,23 @@
 		054FCBCB2B21AD9600A5AA4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBCA2B21AD9600A5AA4B /* ContentView.swift */; };
 		054FCBCD2B21AD9700A5AA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054FCBCC2B21AD9700A5AA4B /* Assets.xcassets */; };
 		054FCBD02B21AD9700A5AA4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054FCBCF2B21AD9700A5AA4B /* Preview Assets.xcassets */; };
+		054FCBDC2B21AE8200A5AA4B /* CoverFlowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBDB2B21AE8200A5AA4B /* CoverFlowItemView.swift */; };
+		054FCBDE2B21B2BA00A5AA4B /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBDD2B21B2BA00A5AA4B /* CoverFlowView.swift */; };
+		054FCBE02B21B2E300A5AA4B /* FallaciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBDF2B21B2E300A5AA4B /* FallaciesView.swift */; };
+		054FCBE22B21B2FE00A5AA4B /* FallacyDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE12B21B2FE00A5AA4B /* FallacyDetailsView.swift */; };
+		054FCBE42B21B34A00A5AA4B /* CardsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE32B21B34A00A5AA4B /* CardsStackView.swift */; };
+		054FCBE62B21B37000A5AA4B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE52B21B37000A5AA4B /* CardView.swift */; };
+		054FCBE82B21B39400A5AA4B /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE72B21B39400A5AA4B /* SwipeView.swift */; };
+		054FCBEA2B21B3CB00A5AA4B /* OptionsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE92B21B3CB00A5AA4B /* OptionsGridView.swift */; };
+		054FCBEC2B21B3E800A5AA4B /* QuizCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBEB2B21B3E800A5AA4B /* QuizCompletedView.swift */; };
+		054FCBEE2B21B41100A5AA4B /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBED2B21B41100A5AA4B /* QuizView.swift */; };
+		054FCBF02B21B44700A5AA4B /* ReusableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBEF2B21B44700A5AA4B /* ReusableText.swift */; };
+		054FCBF22B21B4A100A5AA4B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBF12B21B4A100A5AA4B /* UserModel.swift */; };
+		054FCBF42B21B4F700A5AA4B /* FallacyDetailesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBF32B21B4F700A5AA4B /* FallacyDetailesModel.swift */; };
+		054FCBF62B21B52900A5AA4B /* GameManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBF52B21B52900A5AA4B /* GameManagerVM.swift */; };
+		054FCBF82B21B55200A5AA4B /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBF72B21B55200A5AA4B /* QuizModel.swift */; };
+		054FCBFA2B21B58F00A5AA4B /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBF92B21B58F00A5AA4B /* StateModel.swift */; };
+		054FCBFC2B21B5E500A5AA4B /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBFB2B21B5E500A5AA4B /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,23 @@
 		054FCBCA2B21AD9600A5AA4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		054FCBCC2B21AD9700A5AA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		054FCBCF2B21AD9700A5AA4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		054FCBDB2B21AE8200A5AA4B /* CoverFlowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowItemView.swift; sourceTree = "<group>"; };
+		054FCBDD2B21B2BA00A5AA4B /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
+		054FCBDF2B21B2E300A5AA4B /* FallaciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallaciesView.swift; sourceTree = "<group>"; };
+		054FCBE12B21B2FE00A5AA4B /* FallacyDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallacyDetailsView.swift; sourceTree = "<group>"; };
+		054FCBE32B21B34A00A5AA4B /* CardsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsStackView.swift; sourceTree = "<group>"; };
+		054FCBE52B21B37000A5AA4B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		054FCBE72B21B39400A5AA4B /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		054FCBE92B21B3CB00A5AA4B /* OptionsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsGridView.swift; sourceTree = "<group>"; };
+		054FCBEB2B21B3E800A5AA4B /* QuizCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCompletedView.swift; sourceTree = "<group>"; };
+		054FCBED2B21B41100A5AA4B /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		054FCBEF2B21B44700A5AA4B /* ReusableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableText.swift; sourceTree = "<group>"; };
+		054FCBF12B21B4A100A5AA4B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		054FCBF32B21B4F700A5AA4B /* FallacyDetailesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallacyDetailesModel.swift; sourceTree = "<group>"; };
+		054FCBF52B21B52900A5AA4B /* GameManagerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagerVM.swift; sourceTree = "<group>"; };
+		054FCBF72B21B55200A5AA4B /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		054FCBF92B21B58F00A5AA4B /* StateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModel.swift; sourceTree = "<group>"; };
+		054FCBFB2B21B5E500A5AA4B /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				054FCBC82B21AD9600A5AA4B /* EristicApp.swift */,
-				054FCBCA2B21AD9600A5AA4B /* ContentView.swift */,
+				054FCBD82B21ADBB00A5AA4B /* Models */,
+				054FCBD62B21ADA400A5AA4B /* Views */,
+				054FCBDA2B21ADD300A5AA4B /* ViewModels */,
 				054FCBCC2B21AD9700A5AA4B /* Assets.xcassets */,
 				054FCBCE2B21AD9700A5AA4B /* Preview Content */,
 			);
@@ -65,6 +101,45 @@
 				054FCBCF2B21AD9700A5AA4B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		054FCBD62B21ADA400A5AA4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				054FCBCA2B21AD9600A5AA4B /* ContentView.swift */,
+				054FCBDF2B21B2E300A5AA4B /* FallaciesView.swift */,
+				054FCBDB2B21AE8200A5AA4B /* CoverFlowItemView.swift */,
+				054FCBDD2B21B2BA00A5AA4B /* CoverFlowView.swift */,
+				054FCBE12B21B2FE00A5AA4B /* FallacyDetailsView.swift */,
+				054FCBE32B21B34A00A5AA4B /* CardsStackView.swift */,
+				054FCBE52B21B37000A5AA4B /* CardView.swift */,
+				054FCBE72B21B39400A5AA4B /* SwipeView.swift */,
+				054FCBE92B21B3CB00A5AA4B /* OptionsGridView.swift */,
+				054FCBEB2B21B3E800A5AA4B /* QuizCompletedView.swift */,
+				054FCBED2B21B41100A5AA4B /* QuizView.swift */,
+				054FCBEF2B21B44700A5AA4B /* ReusableText.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		054FCBD82B21ADBB00A5AA4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				054FCBF92B21B58F00A5AA4B /* StateModel.swift */,
+				054FCBF12B21B4A100A5AA4B /* UserModel.swift */,
+				054FCBF72B21B55200A5AA4B /* QuizModel.swift */,
+				054FCBF32B21B4F700A5AA4B /* FallacyDetailesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		054FCBDA2B21ADD300A5AA4B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				054FCBF52B21B52900A5AA4B /* GameManagerVM.swift */,
+				054FCBFB2B21B5E500A5AA4B /* AuthenticationManager.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +212,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054FCBE02B21B2E300A5AA4B /* FallaciesView.swift in Sources */,
+				054FCBDE2B21B2BA00A5AA4B /* CoverFlowView.swift in Sources */,
 				054FCBCB2B21AD9600A5AA4B /* ContentView.swift in Sources */,
+				054FCBEA2B21B3CB00A5AA4B /* OptionsGridView.swift in Sources */,
+				054FCBFC2B21B5E500A5AA4B /* AuthenticationManager.swift in Sources */,
 				054FCBC92B21AD9600A5AA4B /* EristicApp.swift in Sources */,
+				054FCBEE2B21B41100A5AA4B /* QuizView.swift in Sources */,
+				054FCBF62B21B52900A5AA4B /* GameManagerVM.swift in Sources */,
+				054FCBF22B21B4A100A5AA4B /* UserModel.swift in Sources */,
+				054FCBF42B21B4F700A5AA4B /* FallacyDetailesModel.swift in Sources */,
+				054FCBE22B21B2FE00A5AA4B /* FallacyDetailsView.swift in Sources */,
+				054FCBDC2B21AE8200A5AA4B /* CoverFlowItemView.swift in Sources */,
+				054FCBF82B21B55200A5AA4B /* QuizModel.swift in Sources */,
+				054FCBF02B21B44700A5AA4B /* ReusableText.swift in Sources */,
+				054FCBFA2B21B58F00A5AA4B /* StateModel.swift in Sources */,
+				054FCBE82B21B39400A5AA4B /* SwipeView.swift in Sources */,
+				054FCBEC2B21B3E800A5AA4B /* QuizCompletedView.swift in Sources */,
+				054FCBE62B21B37000A5AA4B /* CardView.swift in Sources */,
+				054FCBE42B21B34A00A5AA4B /* CardsStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
