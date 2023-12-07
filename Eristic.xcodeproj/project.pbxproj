@@ -17,7 +17,6 @@
 		054FCBE22B21B2FE00A5AA4B /* FallacyDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE12B21B2FE00A5AA4B /* FallacyDetailsView.swift */; };
 		054FCBE42B21B34A00A5AA4B /* CardsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE32B21B34A00A5AA4B /* CardsStackView.swift */; };
 		054FCBE62B21B37000A5AA4B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE52B21B37000A5AA4B /* CardView.swift */; };
-		054FCBE82B21B39400A5AA4B /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE72B21B39400A5AA4B /* SwipeView.swift */; };
 		054FCBEA2B21B3CB00A5AA4B /* OptionsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBE92B21B3CB00A5AA4B /* OptionsGridView.swift */; };
 		054FCBEC2B21B3E800A5AA4B /* QuizCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBEB2B21B3E800A5AA4B /* QuizCompletedView.swift */; };
 		054FCBEE2B21B41100A5AA4B /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBED2B21B41100A5AA4B /* QuizView.swift */; };
@@ -27,7 +26,8 @@
 		054FCBF62B21B52900A5AA4B /* GameManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBF52B21B52900A5AA4B /* GameManagerVM.swift */; };
 		054FCBF82B21B55200A5AA4B /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBF72B21B55200A5AA4B /* QuizModel.swift */; };
 		054FCBFA2B21B58F00A5AA4B /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBF92B21B58F00A5AA4B /* StateModel.swift */; };
-		054FCBFC2B21B5E500A5AA4B /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBFB2B21B5E500A5AA4B /* AuthenticationManager.swift */; };
+		054FCBFC2B21B5E500A5AA4B /* AuthenticationManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBFB2B21B5E500A5AA4B /* AuthenticationManagerVM.swift */; };
+		054FCBFE2B21BA3B00A5AA4B /* SwipeManagerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FCBFD2B21BA3B00A5AA4B /* SwipeManagerVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,6 @@
 		054FCBE12B21B2FE00A5AA4B /* FallacyDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallacyDetailsView.swift; sourceTree = "<group>"; };
 		054FCBE32B21B34A00A5AA4B /* CardsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsStackView.swift; sourceTree = "<group>"; };
 		054FCBE52B21B37000A5AA4B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		054FCBE72B21B39400A5AA4B /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		054FCBE92B21B3CB00A5AA4B /* OptionsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsGridView.swift; sourceTree = "<group>"; };
 		054FCBEB2B21B3E800A5AA4B /* QuizCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCompletedView.swift; sourceTree = "<group>"; };
 		054FCBED2B21B41100A5AA4B /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
@@ -52,7 +51,9 @@
 		054FCBF52B21B52900A5AA4B /* GameManagerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagerVM.swift; sourceTree = "<group>"; };
 		054FCBF72B21B55200A5AA4B /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 		054FCBF92B21B58F00A5AA4B /* StateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModel.swift; sourceTree = "<group>"; };
-		054FCBFB2B21B5E500A5AA4B /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		054FCBFB2B21B5E500A5AA4B /* AuthenticationManagerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManagerVM.swift; sourceTree = "<group>"; };
+		054FCBFD2B21BA3B00A5AA4B /* SwipeManagerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeManagerVM.swift; sourceTree = "<group>"; };
+		054FCBFF2B21BC4500A5AA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 		054FCBC72B21AD9600A5AA4B /* Eristic */ = {
 			isa = PBXGroup;
 			children = (
+				054FCBFF2B21BC4500A5AA4B /* Info.plist */,
 				054FCBC82B21AD9600A5AA4B /* EristicApp.swift */,
 				054FCBD82B21ADBB00A5AA4B /* Models */,
 				054FCBD62B21ADA400A5AA4B /* Views */,
@@ -113,7 +115,6 @@
 				054FCBE12B21B2FE00A5AA4B /* FallacyDetailsView.swift */,
 				054FCBE32B21B34A00A5AA4B /* CardsStackView.swift */,
 				054FCBE52B21B37000A5AA4B /* CardView.swift */,
-				054FCBE72B21B39400A5AA4B /* SwipeView.swift */,
 				054FCBE92B21B3CB00A5AA4B /* OptionsGridView.swift */,
 				054FCBEB2B21B3E800A5AA4B /* QuizCompletedView.swift */,
 				054FCBED2B21B41100A5AA4B /* QuizView.swift */,
@@ -127,8 +128,8 @@
 			children = (
 				054FCBF92B21B58F00A5AA4B /* StateModel.swift */,
 				054FCBF12B21B4A100A5AA4B /* UserModel.swift */,
-				054FCBF72B21B55200A5AA4B /* QuizModel.swift */,
 				054FCBF32B21B4F700A5AA4B /* FallacyDetailesModel.swift */,
+				054FCBF72B21B55200A5AA4B /* QuizModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -137,7 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				054FCBF52B21B52900A5AA4B /* GameManagerVM.swift */,
-				054FCBFB2B21B5E500A5AA4B /* AuthenticationManager.swift */,
+				054FCBFB2B21B5E500A5AA4B /* AuthenticationManagerVM.swift */,
+				054FCBFD2B21BA3B00A5AA4B /* SwipeManagerVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -216,18 +218,18 @@
 				054FCBDE2B21B2BA00A5AA4B /* CoverFlowView.swift in Sources */,
 				054FCBCB2B21AD9600A5AA4B /* ContentView.swift in Sources */,
 				054FCBEA2B21B3CB00A5AA4B /* OptionsGridView.swift in Sources */,
-				054FCBFC2B21B5E500A5AA4B /* AuthenticationManager.swift in Sources */,
+				054FCBFC2B21B5E500A5AA4B /* AuthenticationManagerVM.swift in Sources */,
 				054FCBC92B21AD9600A5AA4B /* EristicApp.swift in Sources */,
 				054FCBEE2B21B41100A5AA4B /* QuizView.swift in Sources */,
 				054FCBF62B21B52900A5AA4B /* GameManagerVM.swift in Sources */,
 				054FCBF22B21B4A100A5AA4B /* UserModel.swift in Sources */,
+				054FCBFE2B21BA3B00A5AA4B /* SwipeManagerVM.swift in Sources */,
 				054FCBF42B21B4F700A5AA4B /* FallacyDetailesModel.swift in Sources */,
 				054FCBE22B21B2FE00A5AA4B /* FallacyDetailsView.swift in Sources */,
 				054FCBDC2B21AE8200A5AA4B /* CoverFlowItemView.swift in Sources */,
 				054FCBF82B21B55200A5AA4B /* QuizModel.swift in Sources */,
 				054FCBF02B21B44700A5AA4B /* ReusableText.swift in Sources */,
 				054FCBFA2B21B58F00A5AA4B /* StateModel.swift in Sources */,
-				054FCBE82B21B39400A5AA4B /* SwipeView.swift in Sources */,
 				054FCBEC2B21B3E800A5AA4B /* QuizCompletedView.swift in Sources */,
 				054FCBE62B21B37000A5AA4B /* CardView.swift in Sources */,
 				054FCBE42B21B34A00A5AA4B /* CardsStackView.swift in Sources */,
@@ -367,11 +369,15 @@
 				DEVELOPMENT_TEAM = 4ZC85J53SW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eristic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Think Critical";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,9 +385,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fadyeid.Eristic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -396,11 +405,15 @@
 				DEVELOPMENT_TEAM = 4ZC85J53SW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eristic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Think Critical";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,9 +421,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fadyeid.Eristic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

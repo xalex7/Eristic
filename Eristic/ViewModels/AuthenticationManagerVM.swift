@@ -1,3 +1,10 @@
+//
+//  AuthenticationManager.swift
+//  Eristic
+//
+//  Created by Fady A Eid on 11/25/23.
+//
+
 import Foundation
 
 class AuthenticationManager {

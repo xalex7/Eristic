@@ -25,8 +25,3 @@ final class StateModel: ObservableObject {
         currentUserHighScore = AuthenticationManager.shared.currentLoggedInUser?.highestScore ?? 0
     }
 }
-
-
-
-
-

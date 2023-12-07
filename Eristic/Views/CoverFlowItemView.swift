@@ -41,5 +41,3 @@ struct CoverFlowMenuItem: Identifiable {
     let icon: String
     let title: String
 }
-
-

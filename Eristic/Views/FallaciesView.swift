@@ -1,3 +1,10 @@
+//
+//  FallaciesView.swift
+//  Eristic
+//
+//  Created by Fady A Eid on 11/20/23.
+//
+
 import SwiftUI
 
 // MARK: - FallaciesView
