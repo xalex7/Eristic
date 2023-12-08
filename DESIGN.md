@@ -1,4 +1,47 @@
-# MVVM (Model–View–ViewModel) in SwiftUI
+# Eristic Implementation: Design Overview
+
+## Problem Statement:
+The challenge is to create a user-friendly and engaging tool for learning and identifying the 12 most common informal logical fallacies. Eristic aims to make understanding these fallacies fun and accessible.
+
+## Design Technologies and Patterns:
+
+1. **Swift Programming Language:**
+   - **Safety:** Swift's safety features reduce bugs and errors, ensuring a robust codebase.
+   - **Performance:** Swift's high-performance capabilities are ideal for resource-intensive applications.
+
+2. **SwiftUI Framework:**
+   - **Declarative Syntax:** SwiftUI's syntax is declarative, leading to concise and expressive code.
+   - **Cross-Platform Development:** SwiftUI supports multi-platform development for iOS, macOS, watchOS, and tvOS.
+   - **Live Preview:** SwiftUI provides a live preview feature for real-time code changes.
+
+3. **MVVM Architectural Pattern:**
+   - **Separation of Concerns:** MVVM cleanly separates Model, View, and ViewModel for modular and maintainable code.
+   - **Testability:** MVVM enhances testability by isolating business logic in the ViewModel.
+   - **Reusability:** MVVM promotes code reusability, reducing redundant development efforts.
+   [1] More details about MVVM below.
+
+## Gamification Integration:
+To enhance engagement and retention, Eristic incorporates gamification through the Critical Quiz:
+   - **Engagement:** Motivational elements boost learner engagement.
+   - **Retention:** Interactive experiences improve information retention.
+   - **Challenges:** Intrinsic motivation is fostered through challenges and competition.
+   - **Immediate Feedback:** Users receive instant feedback on correct or incorrect answers.
+   - **Progress Tracking:** Visual representation of progress encourages users to surpass their scores.
+   - **Fun and Enjoyment:** The inherent fun factor makes learning enjoyable and approachable.
+
+## Flash Cards Usage:
+For efficient learning and memory reinforcement, Eristic utilizes flashcards:
+   - **Active Recall:** Users retrieve information, enhancing memory.
+   - **Spaced Repetition:** Learning intervals are optimized for memory reinforcement.
+   - **Quick and Digestible:** Information is presented in small, manageable chunks.
+   - **Efficient Learning:** Focused review is enabled for busy schedules and on-the-go learning.
+
+## User Interface Design:
+   - Large, clear buttons ensure easy navigation and readability.
+   - Simple colors in light mode enhance the user interface.
+   - Cover Flow design pattern is employed for fallacies details, a navigation pattern Apple created for iTunes on the first iPhone.
+
+# [1] MVVM (Model–View–ViewModel) in SwiftUI
 
 ## Overview
 
@@ -38,7 +81,135 @@ In SwiftUI, MVVM is a commonly adopted pattern due to its compatibility with the
 - Contains logic to transform and manipulate data for the View.
 - Listens for user interactions and updates the Model accordingly.
 
-# Eristic Implemntation:
+# Eristic Main Views design Overview:
 
-The topic of informal logical fallacies has always been an intersting topic for me. Although it is very common in lives in everything around us from advertisment to politics to academic debates ..etc. Yet it is still complicated to identifity each informal fallacy in argument.
-The problem that I tried to solve through Eristic 
+## ContentView.swift
+
+- **Readability and Structure:**
+  - Well-organized code with clear sections and comments for readability.
+  - Structured with extensions and private structs for maintainability.
+
+- **Separation of Concerns:**
+  - Extensions and environment values show a clear separation of concerns, promoting modularity.
+
+- **SwiftUI Best Practices:**
+  - Leverages SwiftUI features like @State, NavigationView, and various UI components.
+  - Proper use of modifiers and styling for a visually appealing interface.
+
+- **MVVM Pattern:**
+  - Use of `@State` aligns with the MVVM pattern, separating view state from business logic.
+
+- **Reusability:**
+  - Modular structure promotes reusability and testability.
+
+- **Error Handling:**
+  - showAlert function handles errors effectively for a better user experience.
+
+- **Navigation Logic:**
+  - NavigationLink usage and login/registration logic contribute to seamless navigation.
+
+- **Responsive UI:**
+  - Design ensures responsiveness on various devices.
+
+- **Feedback to the User:**
+  - Uses an alert with a brain emoji for informative and engaging user communication.
+
+- **Swift and SwiftUI Features:**
+  - Utilizes Swift's safety features and SwiftUI's declarative syntax.
+
+- **Preview Section:**
+  - SwiftUI preview enables quick visual validation during development.
+
+## FallaciesView.swift
+
+- `@State private var isLoggedOut = false`: Tracks logout state.
+- `@StateObject var stateModel = StateModel()`: Manages view state.
+
+### Body
+
+- **Greeting and High Score Display:**
+  - Displays personalized greeting and user's best score using `stateModel`.
+  - Enhances user engagement.
+
+- **CoverFlowMenu:**
+  - Presents a visually appealing and interactive CoverFlowMenu.
+
+- **Navigation Links:**
+  - Provides NavigationLinks for Flash Cards and Critical Quiz sections.
+  - Clear calls-to-action for seamless transitions.
+
+- **Logout Button:**
+  - Implements Logout button with `AuthenticationManager` integration.
+
+- **NavigationLink to ContentView:**
+  - Includes NavigationLink to ContentView when logged out.
+
+### Navigation and UI Styling:
+
+- **NavigationView:**
+  - Wraps view for easy navigation and provides a navigation bar.
+
+- **NavigationBar Handling:**
+  - Hides navigation bar and back button for a clean interface.
+
+### Overall Considerations:
+
+- **User-Centric Design:**
+  - Prioritizes user-centric approach with personalized content.
+
+- **Logout Mechanism:**
+  - Logout button triggers `AuthenticationManager` for data security.
+
+## CoverFlowMenu.swift Design Analysis
+
+- **Properties and Initialization:**
+  - Defines array of `CoverFlowMenuItem` objects for fallacy representation.
+  - Each item includes icon and title for visual identification.
+
+- **Body:**
+  - Utilizes `ScrollView` with horizontal scrolling for Cover Flow menu.
+  - Iterates over menu items using `ForEach` and includes NavigationLink for detailed fallacy info.
+
+- **Preview Section:**
+  - Provides a preview of CoverFlowMenu using `#Preview` block.
+
+- **Overall Considerations:**
+  - Visual appeal enhanced with icons and titles.
+  - Encourages user interaction and engagement.
+
+## QuizView.swift
+
+- **Properties and Initialization:**
+  - `@StateObject var gameManagerVM`: Manages game state.
+
+### Body:
+
+- **ZStack Structure:**
+  - Uses `ZStack` to handle different quiz states.
+
+- **Conditional Check:**
+  - Checks if quiz is completed and displays `QuizCompletedView`.
+
+- **VStack for Quiz Components:**
+  - Displays score, current quiz question, timer circle, and options grid.
+
+- **Navigation and Styling:**
+  - Sets navigation title as "Critical Quiz" with inline display mode.
+  - Handles quiz start and reset on appearance and disappearance.
+
+- **Animation and Interaction:**
+  - Applies bounce effect to score icon and animates timer circle.
+
+- **Preview Section:**
+  - Provides preview for testing `QuizView` with sample `GameManagerVM`.
+
+### Overall Considerations:
+
+- **Engaging Visuals:**
+  - Symbols, animations, and timer circle enhance visual appeal.
+
+- **Interactive Elements:**
+  - Encourages user interaction through various components.
+
+- **Responsive Design:**
+  - Adapts to different screen sizes with dynamic components.
