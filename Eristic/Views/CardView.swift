@@ -10,6 +10,7 @@ import SwiftUI
 struct CardView: View {
     // Card properties
     let index: Int
+    let cardSymbol: String
     let title: String
     let argument: String = ""
     let argText: String
@@ -25,18 +26,18 @@ struct CardView: View {
                 // Card content
                 VStack(spacing: 30) {
                     // Lightning bolt icon
-                    Image(systemName: "bolt.fill")
+                    Image(systemName: "\(cardSymbol)")
                         .font(.largeTitle)
-                        .foregroundColor(.orange)
+                        .foregroundStyle(.blue, .red, .gray)
                         .padding()
                     
                     // Card title
-                    ReusableText(text: "\(title)", font: .title, color: .gray)
+                    ReusableText(text: "\(title)", font: .title, color: .red)
             
                     // Argument section
                     VStack {
                         ReusableText(systemSymbol: "bubble.fill",text: "\(argument)", font: .title, color: .blue)
-                        ReusableText(text: "\(argText)", font: .title3, color: .gray)
+                        ReusableText(text: "\(argText)", font: .title3, color: .black)
                     }.minimumScaleFactor(0.5)
                     
                     // Counterargument section
@@ -54,5 +55,5 @@ struct CardView: View {
 
 #Preview {
     // Example card
-    CardView(index: 0, title: "Ad Hominem", argText: "Climate change is a serious issue!", counText: "You're not qualified to talk about climate change; you dropped out of college." )
+    CardView(index: 0, cardSymbol: "bolt.fill", title: "Ad Hominem", argText: "Climate change is a serious issue!", counText: "You're not qualified to talk about climate change; you dropped out of college." )
 }

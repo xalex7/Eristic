@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-//var list = FallaciesList.fallacies
-
 struct FallacyDetailsView: View {
     let exampleFallacy: Fallacy /* = FallaciesList.fallacies[0]*/
     
@@ -57,8 +55,6 @@ extension Text {
         self.font(.body)
     }
 }
-
-
 
 #Preview {
     FallacyDetailsView(exampleFallacy: FallaciesList.fallacies[0])
