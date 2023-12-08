@@ -1,5 +1,7 @@
 # Eristic (Think Critical) iOS App
 
+YouTube url: https://youtu.be/j13dpPYPDAI
+
 ## Overview
 Think Critical (Project Eristic) is an iOS application designed to address the twelve most common logical fallacies. It leverages Swift and SwiftUI, incorporating the Model–View–ViewModel (MVVM) architectural pattern to create an interactive and gamified learning experience. The app features Swipe Flow navigation, Flash Cards, and a Logical Fallacies quiz.
 
